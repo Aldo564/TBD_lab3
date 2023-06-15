@@ -1,0 +1,7 @@
+[
+    {"id_institucion":1,"nombre":"institucion 1","direccion":"direccion institucion 1"},
+    {"id_institucion":2,"nombre":"institucion 2","direccion":"direccion institucion 2"}, 
+    {"id_institucion":3,"nombre":"institucion 3","direccion":"direccion institucion 3"},
+    {"id_institucion":4,"nombre":"institucion 4","direccion":"direccion institucion 4"},
+    {"id_institucion":5,"nombre":"institucion 5","direccion":"direccion institucion 5"}
+]

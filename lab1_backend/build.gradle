@@ -1,0 +1,38 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.3'
+	id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+	id 'java'
+}
+
+group = 'cl.tbd'
+version = '0.0.1-SNAPSHOT'
+//sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	testImplementation ('org.springframework.boot:spring-boot-starter-test'){
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation
+	implementation 'org.springframework.boot:spring-boot-starter-validation:2.3.1.RELEASE'
+	implementation 'org.hibernate.validator:hibernate-validator:6.1.2.Final'
+	implementation "org.postgresql:postgresql:42.2.5"
+
+	// https://mavenlibs.com/maven/dependency/org.sql2o/sql2o
+	implementation 'org.sql2o:sql2o:1.6.0'
+	
+	//implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:3.0.0'
+	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:2.7.3'
+	implementation 'org.mongodb:mongo-java-driver:3.12.10'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

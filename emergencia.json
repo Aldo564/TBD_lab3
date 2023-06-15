@@ -1,0 +1,37 @@
+[
+    {
+        "id_emergencia":1,
+        "asunto":"vestibulum",
+        "descripcion":"Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
+        "direccion":"direccion falsa 1",
+        "fecha":"2021-09-30",
+        "activa":true,
+        "institucion":
+        {
+            "id_institucion":1,
+            "nombre":"institucion 1",
+            "direccion":"direccion institucion 1"
+        },
+        "longitud":-79.8684,
+        "latitud":-33.7122,
+        "ubicacion":
+        {
+            "type":"Point",
+            "coordinates":[-79.8684,-33.7122]
+        },
+        "habilidades":
+        [
+            {"id_habilidad":2,"descripcion":"TRABAJO EN AGUA","codigo":"H2"},
+            {"id_habilidad":3,"descripcion":"RESISTENCIA AL CALOR","codigo":"H3"}
+        ]
+    }, 
+    {"id_emergencia":2,"asunto":"a feugiat","descripcion":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.","direccion":"direccion falsa 2","fecha":"2021-05-06","activa":true,"institucion":{"id_institucion":1,"nombre":"institucion 1","direccion":"direccion institucion 1"},"longitud":-70.51496,"latitud":-33.35781,"ubicacion":{"type":"Point","coordinates":[-70.51496,-33.35781]},"habilidades":[{"id_habilidad":1,"descripcion":"TRABAJO EN ALTURA","codigo":"H1"},{"id_habilidad":5,"descripcion":"MANEJO INGENIERIL","codigo":"H5"}]}, 
+    {"id_emergencia":3,"asunto":"consequat metus","descripcion":"Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.","direccion":"direccion falsa 3","fecha":"2021-06-06","activa":false,"institucion":{"id_institucion":2,"nombre":"institucion 2","direccion":"direccion institucion 2"},"longitud":-70.5022,"latitud":-33.1891,"ubicacion":{"type":"Point","coordinates":[-70.5022,-33.1891]},"habilidades":[{"id_habilidad":3,"descripcion":"RESISTENCIA AL CALOR","codigo":"H3"},{"id_habilidad":5,"descripcion":"MANEJO INGENIERIL","codigo":"H5"}]}, 
+    {"id_emergencia":4,"asunto":"erat curabitur gravida","descripcion":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.","direccion":"direccion falsa 4","fecha":"2021-06-10","activa":true,"institucion":{"id_institucion":2,"nombre":"institucion 2","direccion":"direccion institucion 2"},"longitud":-69.619,"latitud":-17.694,"ubicacion":{"type":"Point","coordinates":[-69.619,-17.694]},"habilidades":[{"id_habilidad":3,"descripcion":"RESISTENCIA AL CALOR","codigo":"H3"}]}, 
+    {"id_emergencia":5,"asunto":"nibh","descripcion":"Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.","direccion":"direccion falsa 5","fecha":"2021-10-20","activa":true,"institucion":{"id_institucion":3,"nombre":"institucion 3","direccion":"direccion institucion 3"},"longitud":-70.2844,"latitud":-33.5822,"ubicacion":{"type":"Point","coordinates":[-70.2844,-33.5822]},"habilidades":[{"id_habilidad":1,"descripcion":"TRABAJO EN ALTURA","codigo":"H1"},{"id_habilidad":3,"descripcion":"RESISTENCIA AL CALOR","codigo":"H3"},{"id_habilidad":5,"descripcion":"MANEJO INGENIERIL","codigo":"H5"}]}, 
+    {"id_emergencia":6,"asunto":"non pretium","descripcion":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.","direccion":"direccion falsa 6","fecha":"2021-12-05","activa":true,"institucion":{"id_institucion":3,"nombre":"institucion 3","direccion":"direccion institucion 3"},"longitud":-71.3279,"latitud":-33.9139,"ubicacion":{"type":"Point","coordinates":[-71.3279,-33.9139]},"habilidades":[{"id_habilidad":3,"descripcion":"RESISTENCIA AL CALOR","codigo":"H3"},{"id_habilidad":4,"descripcion":"CAPACIDAD DE IMPROVISACION","codigo":"H4"}]}, 
+    {"id_emergencia":7,"asunto":"magna","descripcion":"Nunc purus. Phasellus in felis.","direccion":"direccion falsa 7","fecha":"2021-03-20","activa":false,"institucion":{"id_institucion":4,"nombre":"institucion 4","direccion":"direccion institucion 4"},"longitud":-73.9248,"latitud":-38.3771,"ubicacion":{"type":"Point","coordinates":[-73.9248,-38.3771]},"habilidades":[{"id_habilidad":2,"descripcion":"TRABAJO EN AGUA","codigo":"H2"},{"id_habilidad":4,"descripcion":"CAPACIDAD DE IMPROVISACION","codigo":"H4"}]}, 
+    {"id_emergencia":8,"asunto":"sed","descripcion":"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.","direccion":"direccion falsa 8","fecha":"2021-02-27","activa":true,"institucion":{"id_institucion":4,"nombre":"institucion 4","direccion":"direccion institucion 4"},"longitud":-71.5632,"latitud":-39.2627,"ubicacion":{"type":"Point","coordinates":[-71.5632,-39.2627]},"habilidades":[{"id_habilidad":2,"descripcion":"TRABAJO EN AGUA","codigo":"H2"},{"id_habilidad":4,"descripcion":"CAPACIDAD DE IMPROVISACION","codigo":"H4"}]}, 
+    {"id_emergencia":9,"asunto":"mi in porttitor","descripcion":"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.","direccion":"direccion falsa 9","fecha":"2021-08-07","activa":true,"institucion":{"id_institucion":5,"nombre":"institucion 5","direccion":"direccion institucion 5"},"longitud":-71.995,"latitud":-37.076,"ubicacion":{"type":"Point","coordinates":[-71.995,-37.076]},"habilidades":[{"id_habilidad":4,"descripcion":"CAPACIDAD DE IMPROVISACION","codigo":"H4"}]}, 
+    {"id_emergencia":10,"asunto":"justo","descripcion":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.","direccion":"direccion falsa 10","fecha":"2021-08-03","activa":false,"institucion":{"id_institucion":5,"nombre":"institucion 5","direccion":"direccion institucion 5"},"longitud":-109.5043,"latitud":-27.0906,"ubicacion":{"type":"Point","coordinates":[-109.5043,-27.0906]},"habilidades":[{"id_habilidad":2,"descripcion":"TRABAJO EN AGUA","codigo":"H2"},{"id_habilidad":3,"descripcion":"RESISTENCIA AL CALOR","codigo":"H3"},{"id_habilidad":4,"descripcion":"CAPACIDAD DE IMPROVISACION","codigo":"H4"}]}
+]

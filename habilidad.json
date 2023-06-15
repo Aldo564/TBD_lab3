@@ -1,0 +1,7 @@
+[
+    {"id_habilidad":1,"descripcion":"TRABAJO EN ALTURA","codigo":"H1"}, 
+    {"id_habilidad":2,"descripcion":"TRABAJO EN AGUA","codigo":"H2"}, 
+    {"id_habilidad":3,"descripcion":"RESISTENCIA AL CALOR","codigo":"H3"}, 
+    {"id_habilidad":4,"descripcion":"CAPACIDAD DE IMPROVISACIÓN","codigo":"H4"}, 
+    {"id_habilidad":5,"descripcion":"MANEJO INGENIERIL","codigo":"H5"}
+]

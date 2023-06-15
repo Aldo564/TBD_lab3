@@ -1,0 +1,28 @@
+{
+  "name": "lab1_frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "axios": "^0.27.2",
+    "core-js": "^3.19.3",
+    "geo-distance-js": "^1.0.0",
+    "leaflet": "^1.9.3",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "maplibre-gl": "^2.4.0",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-date-pick": "^1.5.1",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vue-wait": "^1.5.3",
+    "vue2-leaflet": "^2.7.1",
+    "webpack": "^4.46.0"
+  }
+}
